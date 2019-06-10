@@ -1,0 +1,20 @@
+{
+  "name": "confr-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^2.1.0",
+    "fastify-cors": "^2.1.2",
+    "fastify-swagger": "^2.3.2",
+    "lowdb": "^1.0.0",
+    "moment": "^2.24.0",
+    "uuid": "^3.3.2"
+  }
+}

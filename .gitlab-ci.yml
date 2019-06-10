@@ -1,0 +1,32 @@
+services:
+  - docker:dind
+
+stages:
+  - build
+  - deploy
+
+.cache-node-modules: &cache-node-modules
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    untracked: true
+    paths:
+      - node_modules/
+
+build:
+  <<: *cache-node-modules
+  stage: build
+  image: node:10.15.3-alpine
+  script:
+    - npm i
+
+build_image:
+  <<: *cache-node-modules
+  stage: deploy
+  image: bwielgosz/confr-webapp-job-image:latest
+  script:
+    - heroku container:login
+    - heroku container:push web --app confr-webapp-mock-api
+    - heroku container:release web --app confr-webapp-mock-api
+  only:
+    - master
+

@@ -1,0 +1,160 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Black",
+      "roomNumber": "2.35",
+      "seats": 6,
+      "reservations": [
+        {
+          "id": "123kjcasd31asd",
+          "subject": "SUPER NAME",
+          "startTime": "0:29",
+          "endTime": "4:00",
+          "date": "28-05-2019",
+          "owner": "rick.sanchez@patronage.onmicrosoft.com"
+        },
+        {
+          "id": "50319392-74f4-4f37-9df9-faaa90cf7943",
+          "subject": "SUPER NAME",
+          "startTime": "15:29",
+          "endTime": "15:40",
+          "date": "23-05-2019",
+          "owner": "rick.sanchez@patronage.onmicrosoft.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Blue",
+      "roomNumber": "2.35",
+      "seats": 6,
+      "reservations": [
+        {
+          "id": "ve1we12ve12",
+          "subject": "SUPER NAME",
+          "startTime": "15:29",
+          "endTime": "15:40",
+          "date": "18-05-2019",
+          "owner": "beth.smith@patronage.onmicrosoft.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Budka 1",
+      "roomNumber": "2.5",
+      "seats": 3,
+      "reservations": [
+        {
+          "id": "123kjcasd31aaasd",
+          "subject": "SUPER NAME",
+          "startTime": "0:29",
+          "endTime": "4:00",
+          "date": "28-05-2019",
+          "owner": "rick.sanchez@patronage.onmicrosoft.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Budka 2",
+      "roomNumber": "2.2",
+      "seats": 3,
+      "reservations": []
+    },
+    {
+      "id": 5,
+      "name": "Budka 3",
+      "roomNumber": "1.1",
+      "seats": 2,
+      "reservations": []
+    },
+    {
+      "id": 6,
+      "name": "Budka 4",
+      "roomNumber": "1.17",
+      "seats": 10,
+      "reservations": [
+        {
+          "id": "123kjca12331",
+          "subject": "SUPER NAME",
+          "startTime": "17:39",
+          "endTime": "18:40",
+          "date": "19-05-2019",
+          "owner": "beth.smith@patronage.onmicrosoft.com"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Budka 5",
+      "roomNumber": "1.15",
+      "seats": 10,
+      "reservations": []
+    },
+    {
+      "id": 8,
+      "name": "Conf Room Damian",
+      "roomNumber": "1.13",
+      "seats": 4,
+      "reservations": []
+    },
+    {
+      "id": 9,
+      "name": "Green",
+      "roomNumber": "1.4",
+      "seats": 2,
+      "reservations": []
+    },
+    {
+      "id": 10,
+      "name": "Orange",
+      "roomNumber": "4.56",
+      "seats": 4,
+      "reservations": []
+    },
+    {
+      "id": 11,
+      "name": "Pink",
+      "roomNumber": "4.56",
+      "seats": 19,
+      "reservations": []
+    },
+    {
+      "id": 12,
+      "name": "Purple",
+      "roomNumber": "4.56",
+      "seats": 4,
+      "reservations": []
+    },
+    {
+      "id": 13,
+      "name": "Red",
+      "roomNumber": "4.56",
+      "seats": 8,
+      "reservations": []
+    },
+    {
+      "id": 14,
+      "name": "Silver",
+      "roomNumber": "4.56",
+      "seats": 8,
+      "reservations": []
+    },
+    {
+      "id": 15,
+      "name": "The Garage",
+      "roomNumber": "4.56",
+      "seats": 6,
+      "reservations": []
+    },
+    {
+      "id": 16,
+      "name": "White",
+      "roomNumber": "4.56",
+      "seats": 6,
+      "reservations": []
+    }
+  ]
+}
