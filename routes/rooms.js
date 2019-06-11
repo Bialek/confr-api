@@ -6,6 +6,19 @@ const convertTime = require('../helpers/convertTime')
 const uuidv4 = require('uuid/v4')
 
 module.exports = (fastify, opts, next) => {
+  fastify.register(require('fastify-jwt'), {
+    secret: 'supersecret'
+  })
+  fastify.addHook("onRequest", async (request, reply) => {
+    try {
+      console.log(request)
+      
+      await request.jwtVerify()
+    } catch (err) {
+      reply.send(err)
+    }
+  })
+
   fastify.get('/rooms', async (req, res) => {
     const rooms = await fastify.db.get('rooms').value()
     const filteredInfo = rooms.map(room => ({

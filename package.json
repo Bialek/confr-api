@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "nodemon ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "fastify": "^2.1.0",
+    "fastify-auth": "^0.5.0",
+    "fastify-basic-auth": "^0.4.0",
     "fastify-cors": "^2.1.2",
+    "fastify-jwt": "^0.10.0",
     "fastify-swagger": "^2.3.2",
     "lowdb": "^1.0.0",
     "moment": "^2.24.0",
